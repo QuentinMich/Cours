@@ -1,3 +1,4 @@
+.flex,
 article {
     display: flex;
 }
@@ -28,4 +29,13 @@ div {
 }
 .exo6 {
     align-items: end;
+}
+.exo7 {
+    justify-content: space-evenly;
+}
+.exo7_1 {
+    align-items: center;
+}
+.exo7_2 {
+    flex-direction: column;
 }
