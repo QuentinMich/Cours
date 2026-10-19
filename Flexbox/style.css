@@ -43,7 +43,6 @@ div {
 .end {
     align-items: end;
 }
-.exo6 {
-    justify-content: space-between;
+.gap {
     gap: 50px;
 }

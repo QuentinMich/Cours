@@ -1,0 +1,43 @@
+h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+p {
+    text-align: center;
+    font-size: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px;
+}
+.blueRedBox {
+    height: 200px; /* hauteur fixe nécessaire */
+    margin: 0 auto; /* 0 pour haut/bas, auto pour gauche/droite */
+    background-color: red;
+    border: 2px solid blue;
+}
+.blueGreenBox {
+    height: 200px; /* hauteur fixe nécessaire */
+    width: 50%;
+    margin: 10px;
+    background-color: green;
+    border: 2px solid blue;
+
+}
+.blackGreenBox {
+    height: 200px; /* hauteur fixe nécessaire */
+    width: 50%;
+    margin: 10px auto; /* 0 pour haut/bas, auto pour gauche/droite */
+    background-color: green;
+    border: 2px solid black;
+}
+.linkBox {
+    border: 2px solid black;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+/* Du coup c'était bien ce que j'avais fait avant juste j'avais pas le réflex */
