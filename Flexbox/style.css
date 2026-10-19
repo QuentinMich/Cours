@@ -2,7 +2,9 @@
 article {
     display: flex;
 }
-
+.ver {
+    flex-direction: column;
+}
 div {
     height: 60px;
     width: 60px;
@@ -10,28 +12,7 @@ div {
     border: 2px black solid;
     border-radius: 4px;
     margin: 6px
-}
-.exo {
-    border-bottom: 2px solid black;
-}
-
-.exo2 {
-    justify-content: space-between;
-}
-.exo3 {
-    justify-content: end;
-}
-.ver {
-    flex-direction: column;
-}
-.center {
-    align-items: center;
-}
-.exo6 {
-    justify-content: space-between;
-    gap: 50px;
-}
-.bigBox {
+}.bigBox {
     height: 100px;
     width: 100px;
 }
@@ -43,10 +24,26 @@ div {
     border-radius: 4px;
     margin: 4px;
 }
+.exo {
+    border-bottom: 2px solid black;
+}
+
+.exo2 {
+    justify-content: space-between;
+}
+.exo3 {
+    justify-content: end;
+}
 .spaceEven {
     justify-content: space-evenly;
 }
-
+.center {
+    align-items: center;
+}
 .end {
     align-items: end;
+}
+.exo6 {
+    justify-content: space-between;
+    gap: 50px;
 }
