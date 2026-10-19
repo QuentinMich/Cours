@@ -24,14 +24,12 @@ div {
 .ver {
     flex-direction: column;
 }
-.exo5 {
+.center {
     align-items: center;
 }
 .exo6 {
-    align-items: end;
-}
-.exo7_1 {
-    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
 }
 .bigBox {
     height: 100px;
@@ -47,4 +45,8 @@ div {
 }
 .spaceEven {
     justify-content: space-evenly;
+}
+
+.end {
+    align-items: end;
 }
